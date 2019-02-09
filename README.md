@@ -4,9 +4,15 @@
 
 Automatically disable plugins if files are deleted
 
+***
+#### **only for use in dev environments!!!**
+***
+
 ### Features
 
 * No more errors due to switches git branches
+* Hooks into `bin/console sw:cache:clear` CLI command
+* Adds CLI command `bin/console rune:pluginreset:resetplugins`
 
 ## Requirements
 

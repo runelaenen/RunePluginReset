@@ -46,7 +46,7 @@ class ClearCacheSubscriber implements SubscriberInterface
     {
         $disabled = $this->pluginResetService->resetPlugins();
         if(count($disabled)) {
-            printf("[RunePluginReset] %1 plugins disabled\n", count($disabled));
+            printf("[RunePluginReset] %d plugins disabled: %s\n", count($disabled), implode(', ', $disabled));
         }
     }
 }
