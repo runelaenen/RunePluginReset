@@ -1,0 +1,11 @@
+{
+  "name": "runelaenen/shopware-plugin-reset",
+  "version": "0.0.1",
+  "keywords": ["shopware", "reset", "plugin"],
+  "description": "Automatically disable plugins if files are deleted",
+  "license": "MIT",
+  "type": "shopware-plugin",
+  "extra": {
+    "installer-name": "RunePluginReset"
+  }
+}
